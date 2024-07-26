@@ -1,0 +1,19 @@
+{
+    "key":{
+        "future_pool":{
+            "url":"https://arona.diyigemt.com/api/v2/image?name=国际服未来视"
+        },
+        "grand_assault":{
+            "url":"https://arona.diyigemt.com/api/v2/image?name=国际服大决战"
+        },
+        "total_assault":{
+            "url": "https://arona.diyigemt.com/api/v2/image?name=国际服总力"
+        },
+        "current_event":{
+            "url": "https://arona.diyigemt.com/api/v2/image?name=国际服活动"
+        },
+        "joint_firing_drill":{
+             "url": "https://arona.diyigemt.com/api/v2/image?name=国际服火力演习"
+        }
+    }
+}
