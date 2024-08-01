@@ -16,9 +16,9 @@ class BilibiliDyncNotifier(commands.Cog):
         self.timestamp = 0
         self.loop = asyncio.get_event_loop()
         
-    async def notify_dynamic(self, d):
+    async def notify_dynamic(self, data):
         channel = self.bot.get_channel(self.channel_id)
-        dynamic_id = d
+        dynamic_id = data['dynamic_id']
         try:
             data = await bili_api.get_dync_info(int(dynamic_id))
             if bili_api.isOpus(int(dynamic_id)):
